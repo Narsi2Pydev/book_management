@@ -1,0 +1,19 @@
+Flask==2.3.2
+Flask-JWT-Extended==4.4.4
+Flask-SQLAlchemy==3.0.3
+psycopg2-binary==2.9.7
+requests==2.31.0
+gunicorn==21.2.0
+SQLAlchemy[asyncio]==2.0.19
+asyncpg==0.27.0
+aiohttp==3.8.5
+uvicorn ==
+transformers==4.30.2
+torch==2.0.1
+sentencepiece==0.1.97
+flask-httpauth
+flask_sqlalchemy==3.0.5
+asgiref==3.7.2
+alembic==1.11.1
+passlib[bcrypt]==1.7.4
+scikit-learn == 1.5.1
