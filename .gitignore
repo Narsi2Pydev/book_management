@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Docker and Alembic
+migrations/
+docker-compose.yml
+
+# Secrets
+.env
