@@ -19,5 +19,5 @@ This is an asynchronous book management system built using Flask, SQLAlchemy wit
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/async-book-management-system-flask.git
+   git clone https://github.com/yourusername/book-management.git
    cd async-book-management-system-flask

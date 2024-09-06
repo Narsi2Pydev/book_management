@@ -11,6 +11,7 @@ class Book(db.Model):
     genre = Column(String, nullable=False)
     summary = Column(Text, nullable=True)
     average_rating = Column(Float, nullable=True)
+    year_published = Column(String, nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)
 
 class User(db.Model):
@@ -27,6 +28,7 @@ class Review(db.Model):
     book_id = Column(Integer, ForeignKey("books.id"), nullable=False)
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
     created_at = Column(DateTime, default=datetime.utcnow)
+    review_text = Column(Text, nullable=False)
 
     book = relationship("Book", back_populates="reviews")
     user = relationship("User", back_populates="reviews")

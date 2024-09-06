@@ -1,0 +1,6 @@
+
+DB_NAME = "book_db"
+AWS_SECRETKEY = ""
+AWS_SECRET_PASSWORD = ""
+AWS_EC2_SERVER = ""
+

@@ -3,7 +3,7 @@ from app.database import get_session
 from app.models import User
 from app.crud import create_user, get_user_by_id, update_user, delete_user
 from app.auth import get_password_hash, requires_auth
-
+from sqlalchemy.future import select
 users_bp = Blueprint("users", __name__)
 
 @users_bp.route("/", methods=["POST"])

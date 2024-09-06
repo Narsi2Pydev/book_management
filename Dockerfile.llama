@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install necessary packages
-RUN pip install --no-cache-dir -r requirements_llama.txt
+#RUN pip install --no-cache-dir -r requirements_llama.txt
 
 # Run the Llama model server
 CMD ["python", "app/llama_server.py"]

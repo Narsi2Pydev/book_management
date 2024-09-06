@@ -3,6 +3,8 @@ from app.database import get_session
 from app.crud import get_book, create_book, update_book, delete_book
 from app.ml_model import recommend_books
 from app.summary_generator import generate_summary
+from app.models import Book
+from sqlalchemy.future import select
 
 books_bp = Blueprint("books", __name__)
 

@@ -1,6 +1,7 @@
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import jwt_required, get_jwt_identity
-from models import db, Review
+from app.models import Review
+from app.database import db
 from utils.llama3_integration import generate_review_summary
 
 reviews_bp = Blueprint('reviews', __name__)
